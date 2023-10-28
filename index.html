@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes-Generator</title>
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire"> -->
+    <link rel="stylesheet" href="style.css">
+<!-- fontawesome icons -->
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+    <div class="quote-container" id="quote-container"> 
+        <!-- Quote -->
+        <div class="quote-text">
+            <i class="fa-quote-left"></i>
+            <span id="quote"></span>
+        </div>
+        <!-- Author -->
+        <div class="quote-author">
+            <span id="author"></span>
+        </div>
+        <!-- Buttons -->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Tweet This!">
+            <!-- <i class="fab fa-twitter fa-stack-1x"></i> -->
+            <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+        </button>
+
+        <button id="new-quote">New Quote</button>
+            
+        </div>
+    </div>
+
+    <!-- Loader -->
+    <div class="loader" id="loader"></div>
+
+    <script src="./quote.js"></script>
+</body>
+</html>
